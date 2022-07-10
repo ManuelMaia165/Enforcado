@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Enforcado</string>
+    <string name="status">Status</string>
+    <string name="adivinhar">Adivinhar</string>
+    <string name="letra">Letra</string>
+    <string name="forca0">forca0</string>
+    <string name="textresult">TextView</string>
+    <string name="resultado">resultado</string>
+    <string name="dica">Dica</string>
+    <string name="quant_letras">Quantidade de Letras</string>
+    <string name="quant_letras_dist">Quantidade Letras Dist</string>
+    <string name="letras_usadas">Letras Usadas</string>
+    <string name="acertos">Acertos</string>
+    <string name="erros">Erros</string>
+    <string name="palavra_escondida">Palavra Escondida</string>
+    <string name="dicatext">Dica Text</string>
+    <string name="quantletrastext">Quant Letras</string>
+    <string name="quantletrasdisttext">Quant Letras Dist</string>
+    <string name="letrasusadastext">Letras Usadas</string>
+    <string name="acertostext">Acertos</string>
+    <string name="errostext">Erros</string>
+    <string name="jogarnovamente">Jogar Novamente</string>
+</resources>

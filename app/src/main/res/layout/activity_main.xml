@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/forca0"
+            app:srcCompat="@drawable/forca0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                >
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/dicatext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/dicatext"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/dica"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/dica"
+                        android:textSize="16sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        tools:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/quant_letrastext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/quantletrastext"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/quant_letras"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/quant_letras"
+                        android:textSize="16sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        tools:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/quant_letras_disttext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/quantletrasdisttext"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/quant_letras_dist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        android:text="@string/quant_letras_dist"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/letras_usadastext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/letrasusadastext"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/letras_usadas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/letras_usadas"
+                        android:textSize="16sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        tools:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/acertostext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/acertostext"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/acertos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acertos"
+                        android:textSize="16sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        tools:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/errostext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/errostext"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/erros"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/erros"
+                        android:textSize="16sp"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp"
+                        tools:visibility="visible" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/palavra_escondida"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/palavra_escondida"
+                android:textSize="24sp"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/letra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:autofillHints=""
+            android:background="@color/black"
+            android:textColor="#ff0000"
+            android:ems="10"
+            android:hint="@string/letra"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:textColorHint="#763e86"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/adivinhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/adivinhar"
+            android:textColor="#763e86"
+            android:backgroundTint="@color/black"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
